@@ -1,0 +1,35 @@
+{
+  "name": "@horacioh/gatsby-theme-instagram",
+  "author": "Horacio Herrera <hi@horacioh.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/horacioh/gatsby-theme-instagram.git"
+  },
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "gatsby": "^2.13.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "gatsby": "^2.13.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.14",
+    "@mdx-js/react": "^1.0.21",
+    "gatsby-plugin-theme-ui": "^0.2.2",
+    "gatsby-source-instagram": "^0.5.1",
+    "theme-ui": "^0.2.2"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin",
+    "instagram",
+    "gatsby-source-instagram"
+  ]
+}
