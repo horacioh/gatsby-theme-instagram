@@ -1,15 +1,15 @@
 module.exports = (options) => ({
   siteMetadata: {
-    title: "Gatsby Theme Instagram",
+    title: `Gatsby Theme Instagram`,
   },
   plugins: [
-    "gatsby-plugin-theme-ui",
+    `gatsby-plugin-theme-ui`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: 'gatsby-source-instagram',
+      resolve: `gatsby-source-instagram`,
       options: {
-        username: options.username || 'gatsbyjs'
+        username: options.username || `gatsbyjs`
       }
     }
   ],

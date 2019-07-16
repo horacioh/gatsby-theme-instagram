@@ -1,9 +1,3 @@
 module.exports = {
-  plugins: [
-    {
-      resolve: '@horacioh/gatsby-theme-mdx'
-    },
-    {
-    resolve: "@horacioh/gatsby-theme-instagram"
-  }],
+  plugins: [`@horacioh/gatsby-theme-mdx`, `@horacioh/gatsby-theme-instagram`],
 }

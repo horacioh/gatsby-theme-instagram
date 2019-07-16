@@ -1,7 +1,7 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui'
+import { jsx } from "theme-ui"
 import { useStaticQuery, graphql } from "gatsby"
-import Card from './Card';
+import Card from "./Card"
 
 function InstagramGrid() {
   const data = useStaticQuery(graphql`
@@ -28,13 +28,21 @@ function InstagramGrid() {
     }
   `)
 
-  return data.allInstaNode.edges && <div sx={{
-    display: 'flex',
-    flexWrap: 'wrap',
-    mx: -2
-  }}>{
-    data.allInstaNode.edges.map(({ node }) => <Card key={node.id} post={node} />)
-  }</div>
+  return (
+    data.allInstaNode.edges && (
+      <div
+        sx={{
+          display: "flex",
+          flexWrap: "wrap",
+          mx: -2,
+        }}
+      >
+        {data.allInstaNode.edges.map(({ node }) => (
+          <Card key={node.id} post={node} />
+        ))}
+      </div>
+    )
+  )
 }
 
 export default InstagramGrid
