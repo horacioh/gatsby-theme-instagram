@@ -5,6 +5,9 @@
     "type": "git",
     "url": "https://github.com/horacioh/gatsby-theme-instagram.git"
   },
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
   "version": "0.1.2",
   "main": "index.js",
   "license": "MIT",
