@@ -6,7 +6,7 @@ module.exports = {
     {
     resolve: "@horacioh/gatsby-theme-instagram",
     options: {
-      username: 'mycalcetines'
+      username: 'meatmadrid'
     }
   }],
 }

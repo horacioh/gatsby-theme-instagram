@@ -1,5 +1,7 @@
-import React from "react"
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
 import { useStaticQuery, graphql } from "gatsby"
+import Card from './Card';
 
 function InstagramGrid() {
   const data = useStaticQuery(graphql`
@@ -12,15 +14,26 @@ function InstagramGrid() {
             preview
             original
             timestamp
+            caption
+            localFile {
+              childImageSharp {
+                fluid(maxWidth: 400, maxHeight: 400) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }
     }
   `)
 
-  return (
-    <div>{JSON.stringify(data, null, 2)}</div>
-  )
+  return data.allInstaNode.edges && <div sx={{
+    display: 'flex',
+    flexWrap: 'wrap'
+  }}>{
+    data.allInstaNode.edges.map(({ node }) => <Card key={node.id} post={node} />)
+  }</div>
 }
 
-export default InstagramGrid;
+export default InstagramGrid

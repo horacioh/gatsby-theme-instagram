@@ -1,13 +1,9 @@
-/**
- * This theme uses `theme-ui` under the hood.
- * @see https://theme-ui.com/
- * @see https://theme-ui.com/gatsby-plugin/
- */
 export default {
   colors: {
     text: "#232129",
     background: "#fff",
     primary: "#639",
+    smoke: '#6f6f6f'
   },
   fonts: {
     default:
@@ -18,6 +14,7 @@ export default {
     text: "1.45",
     heading: "1.1",
   },
+  radii: [0, 2, 4, 6],
   sizes: {
     container: 650,
   },
