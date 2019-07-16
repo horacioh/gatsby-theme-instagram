@@ -4,9 +4,6 @@ module.exports = {
       resolve: '@horacioh/gatsby-theme-mdx'
     },
     {
-    resolve: "@horacioh/gatsby-theme-instagram",
-    options: {
-      username: 'meatmadrid'
-    }
+    resolve: "@horacioh/gatsby-theme-instagram"
   }],
 }

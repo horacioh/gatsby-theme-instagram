@@ -30,7 +30,8 @@ function InstagramGrid() {
 
   return data.allInstaNode.edges && <div sx={{
     display: 'flex',
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
+    mx: -2
   }}>{
     data.allInstaNode.edges.map(({ node }) => <Card key={node.id} post={node} />)
   }</div>
