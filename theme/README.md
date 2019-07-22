@@ -2,6 +2,9 @@
 
 - [Online demo](https://gatsby-theme-instagram.netlify.com/)
 
+![Grid With SimpleCard component](./shots/Grid1.png)
+![Grid With ComplexCard component](./shots/Grid2.png)
+
 ## What you get from this theme
 
 - Add Instagram posts to your Gatsby site
@@ -92,6 +95,8 @@ plugins: [
 
 #### `Grid`
 
+![Grid With SimpleCard component](./shots/Grid1.png)
+
 This component let you render a grid of Instagrams posts. This component is useful when you want to render the recents posts for a specific account or hashtag.
 
 This component uses internally the `Container` components from `theme-ui`, so the with of the component will depend on the Container size you have defined.
@@ -131,6 +136,8 @@ export default () => (
 
 ##### Example usage in React components using `<ComplexCard />`
 
+![Grid With ComplexCard component](./shots/Grid2.png)
+
 ```jsx
 import React from "react"
 import { Grid, ComplexCard } from "@horacioh/gatsby-theme-instagram"
@@ -167,6 +174,8 @@ src/@horacioh/gatsby-theme-instagram/hooks/useGridQuery.js
 
 #### SimpleCard
 
+![SimpleCard component](./shots/SimpleCard.png)
+
 This component let you render a simgle Instagram post, with a simple hover effect that shows the amount of likes and comments for each post.
 
 ##### SimpleCard's Props
@@ -187,6 +196,8 @@ src/@horacioh/gatsby-theme-instagram/components/SimpleCard.js
 ```
 
 #### ComplexCard
+
+![ComplexCard component](./shots/ComplexCard.png)
 
 This component let you render a simgle Instagram post, with a simple hover effect that shows the amount of likes and comments for each post.
 

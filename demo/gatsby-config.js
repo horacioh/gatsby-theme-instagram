@@ -1,9 +1,11 @@
 module.exports = {
+  siteMetadata: {
+    title: 'Gatsby Theme Instagram Demo'
+  },
   plugins: [`@horacioh/gatsby-theme-mdx`, {
     resolve: `@horacioh/gatsby-theme-instagram`,
     options: {
-      username: 'mycalcetines',
-      gridLimit: 12
+      username: 'doraforscale'
     }
   }],
 }
