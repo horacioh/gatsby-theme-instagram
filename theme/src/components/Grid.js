@@ -1,32 +1,10 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { useStaticQuery, graphql } from "gatsby"
-import Card from "./Card"
+import GridCard from "./GridCard"
+import useGridQuery from '../hooks/useGridQuery'
 
 function InstagramGrid() {
-  const data = useStaticQuery(graphql`
-    query {
-      allInstaNode {
-        edges {
-          node {
-            id
-            likes
-            preview
-            original
-            timestamp
-            caption
-            localFile {
-              childImageSharp {
-                fluid(maxWidth: 400, maxHeight: 400) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  `)
+  const data = useGridQuery()
 
   return (
     data.allInstaNode.edges && (
@@ -38,7 +16,7 @@ function InstagramGrid() {
         }}
       >
         {data.allInstaNode.edges.map(({ node }) => (
-          <Card key={node.id} post={node} />
+          <GridCard key={node.id} post={node} />
         ))}
       </div>
     )

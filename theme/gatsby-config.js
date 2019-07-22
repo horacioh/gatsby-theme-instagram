@@ -1,4 +1,4 @@
-module.exports = (options) => ({
+module.exports = options => ({
   siteMetadata: {
     title: `Gatsby Theme Instagram`,
   },
@@ -9,8 +9,12 @@ module.exports = (options) => ({
     {
       resolve: `gatsby-source-instagram`,
       options: {
-        username: options.username || `gatsbyjs`
-      }
-    }
+        type: options.type || `account`,
+        username: options.username || `doraforscale`,
+        hashtag: options.hashtag,
+        access_token: options.access_token,
+        instagram_id: options.instagram_id,
+      },
+    },
   ],
 })
