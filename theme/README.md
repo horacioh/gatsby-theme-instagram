@@ -210,4 +210,4 @@ src/@horacioh/gatsby-theme-instagram/components/ComplexCard.js
 
 ### Issues & Contributions
 
-Please, feel free to file [issues](https://github.com/horacioh/gatsby-theme-instagram/issues) or send me a [tweet]() or an [email](mailto:hi@horacioh.com) for any assistance, help or feature requests!
+Please, feel free to file [issues](https://github.com/horacioh/gatsby-theme-instagram/issues) or send me a [tweet](https://twitter.com/hhg2288) or an [email](mailto:hi@horacioh.com) for any assistance, help or feature requests!
