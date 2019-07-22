@@ -11,6 +11,7 @@ module.exports = options => ({
       options: {
         type: options.type || `account`,
         username: options.username || `doraforscale`,
+        gridLimit: options.gridLimit || 8,
         hashtag: options.hashtag,
         access_token: options.access_token,
         instagram_id: options.instagram_id,

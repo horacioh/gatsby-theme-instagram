@@ -96,6 +96,12 @@ This component let you render a grid of Instagrams posts. This component is usef
 
 This component uses internally the `Container` components from `theme-ui`, so the with of the component will depend on the Container size you have defined.
 
+##### Grid's Props
+
+| Props      | Default value  | Required  | Description                                                                                                                           |
+| ---------- | -------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `card`     | `SimpleCard`   | `false`    | The component that will be rendered for each Instagram post. |
+
 ##### Example usage in MDX
 
 In any MDX file:
@@ -123,7 +129,21 @@ export default () => (
 )
 ```
 
-##### How to shadow this component
+##### Example usage in React components using `<ComplexCard />`
+
+```jsx
+import React from "react"
+import { Grid, ComplexCard } from "@horacioh/gatsby-theme-instagram"
+
+export default () => (
+  <div>
+    <Grid card={ComplexCard} />
+  </div>
+)
+
+```
+
+##### How to shadow the Grid component
 
 If you want to use [component shadowing](https://www.gatsbyjs.org/blog/2019-04-29-component-shadowing/) with this component, create a file at the following path in your site:
 
@@ -132,6 +152,8 @@ src/@horacioh/gatsby-theme-instagram/components/Grid.js
 ```
 
 [checkout the Grid Implementation](./src/components/Grid.js) for more about how to shadow it.
+
+The `Grid` component uses a custom Hook to get the data from GraphQL. In order to modify the queried data, you need to override the `useGridQuery` hook.
 
 ##### How to override the Grid Component Query
 
@@ -142,3 +164,50 @@ src/@horacioh/gatsby-theme-instagram/hooks/useGridQuery.js
 ```
 
 [checkout the useGridQuery Implementation](./src/hooks/useGridQuery.js) for more about how to shadow it.
+
+#### SimpleCard
+
+This component let you render a simgle Instagram post, with a simple hover effect that shows the amount of likes and comments for each post.
+
+##### SimpleCard's Props
+
+| Props      | Default value  | Required  | Description                                                                                                                           |
+| ---------- | -------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `id`       |  | `false` | The Instagram Post ID |
+| `likes`    |  | `false` | The Instagram Post number of likes |
+| `comments` |  | `false` | The Instagram Post number of comments |
+| `localFile`|  | `true` | The Instagram Post localFile Gatsby Image data |
+
+##### How to shadow the SimpleCard component
+
+If you want to use [component shadowing](https://www.gatsbyjs.org/blog/2019-04-29-component-shadowing/) with this component, create a file at the following path in your site:
+
+```sh
+src/@horacioh/gatsby-theme-instagram/components/SimpleCard.js
+```
+
+#### ComplexCard
+
+This component let you render a simgle Instagram post, with a simple hover effect that shows the amount of likes and comments for each post.
+
+##### ComplexCard's Props
+
+| Props      | Default value  | Required  | Description                                                                                                                           |
+| ---------- | -------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `id`       |  | `false` | The Instagram Post ID |
+| `likes`    |  | `false` | The Instagram Post number of likes |
+| `comments` |  | `false` | The Instagram Post number of comments |
+| `username` |  | `true` | The Instagram Post username's owner |
+| `localFile`|  | `true` | The Instagram Post localFile Gatsby Image data |
+
+##### How to shadow the ComplexCard component
+
+If you want to use [component shadowing](https://www.gatsbyjs.org/blog/2019-04-29-component-shadowing/) with this component, create a file at the following path in your site:
+
+```sh
+src/@horacioh/gatsby-theme-instagram/components/ComplexCard.js
+```
+
+### Issues & Contributions
+
+Please, feel free to file [issues](https://github.com/horacioh/gatsby-theme-instagram/issues) or send me a [tweet]() or an [email](mailto:hi@horacioh.com) for any assistance, help or feature requests!

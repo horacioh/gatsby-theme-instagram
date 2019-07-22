@@ -1,11 +1,11 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import GridCard from "./GridCard"
-import useGridQuery from '../hooks/useGridQuery'
+import SimpleCard from "./SimpleCard"
+import useGridQuery from "../hooks/useGridQuery"
 
-function InstagramGrid() {
+function InstagramGrid({ card = SimpleCard }) {
   const data = useGridQuery()
-
+  const Child = card;
   return (
     data.allInstaNode.edges && (
       <div
@@ -15,9 +15,10 @@ function InstagramGrid() {
           mx: -2,
         }}
       >
-        {data.allInstaNode.edges.map(({ node }) => (
-          <GridCard key={node.id} post={node} />
-        ))}
+        {data.allInstaNode.edges.map(({ node }) => {
+          console.log(node)
+          return <Child key={node.id} {...node} />
+        })}
       </div>
     )
   )

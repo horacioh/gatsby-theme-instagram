@@ -9,7 +9,7 @@ export default {
     default:
       '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
   },
-  fontSizes: [16, 18, 20, 22, 27, 36],
+  fontSizes: [12, 16, 18, 20, 22, 27, 36],
   lineHeights: {
     text: "1.45",
     heading: "1.1",
@@ -46,6 +46,7 @@ export default {
       width: "90vw",
     },
     Container: {
+      maxWidth: 'container',
       padding: 0,
       paddingBottom: 3,
       paddingTop: 3,

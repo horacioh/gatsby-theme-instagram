@@ -4,10 +4,10 @@ import Img from "gatsby-image"
 import HeartIcon from "./HeartIcon"
 import CommenttIcon from "./CommentIcon"
 
-function GridCard({ post, tabIndex }) {
+export default function SimpleCard({ id, likes, comments, localFile }) {
   return (
     <a
-      href={`https://www.instagram.com/p/${post.id}/`}
+      href={`https://www.instagram.com/p/${id}/`}
       target="_blank"
       // tabindex={tabIndex}
       sx={{
@@ -45,7 +45,7 @@ function GridCard({ post, tabIndex }) {
           justifyContent: "center",
         }}
       >
-        {post.likes && (
+        {likes && (
           <Flex sx={{ mx: 2 }}>
             <HeartIcon fill="white" />
             <p
@@ -59,11 +59,11 @@ function GridCard({ post, tabIndex }) {
                 mx: 1,
               }}
             >
-              {post.likes}
+              {likes}
             </p>
           </Flex>
         )}
-        {post.comments && (
+        {comments && (
           <Flex sx={{ mx: 2 }}>
             <CommenttIcon fill="white" />
             <p
@@ -77,14 +77,12 @@ function GridCard({ post, tabIndex }) {
                 mx: 1,
               }}
             >
-              {post.comments}
+              {comments}
             </p>
           </Flex>
         )}
       </div>
-      <Img fluid={post.localFile.childImageSharp.fluid} />
+      <Img fluid={localFile.childImageSharp.fluid} />
     </a>
   )
 }
-
-export default GridCard
