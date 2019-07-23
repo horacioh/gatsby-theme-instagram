@@ -1,6 +1,7 @@
 # Gatsby Theme Instagram Source code
 
 - [Online demo](https://gatsby-theme-instagram.netlify.com/)
+- Checkout how I built this theme on [this Youtube playlist](https://www.youtube.com/playlist?list=PL_Q4x-stM4VJNLSloUtRgFH-7VW99I-WS)
 
 ![Grid With SimpleCard component](./shots/Grid1.png)
 ![Grid With ComplexCard component](./shots/Grid2.png)

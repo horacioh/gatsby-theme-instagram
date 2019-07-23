@@ -7,5 +7,11 @@ module.exports = {
     options: {
       username: 'doraforscale'
     }
+  }, {
+    resolve: `@horacioh/gatsby-theme-instagram`,
+    options: {
+      type: 'hashtag',
+      hashtag: `snowing`,
+    }
   }],
 }
