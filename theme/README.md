@@ -1,5 +1,7 @@
 # Gatsby Theme Instagram Source code
 
+![Theme cover image](./shots/cover.jpg)
+
 - [Online demo](https://gatsby-theme-instagram.netlify.com/)
 - Checkout how I built this theme on [this Youtube playlist](https://www.youtube.com/playlist?list=PL_Q4x-stM4VJNLSloUtRgFH-7VW99I-WS)
 

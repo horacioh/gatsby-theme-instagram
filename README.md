@@ -1,5 +1,7 @@
 # Gatsby Theme Instagram Workspace
 
+![Theme cover image](./theme/shots/cover.jpg)
+
 This is a Yarn workspace for the Gatsby theme `gatsby-theme-instagram`.
 
 Add Instagram source components to your Gatsby website.
