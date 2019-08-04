@@ -13,7 +13,3 @@ Add Instagram source components to your Gatsby website.
 
 ---
 This project is a fork of [gatsby-theme-jam-example](https://github.com/jlengstorf/gatsby-theme-jam-example).
-
----
-
-testing PR
