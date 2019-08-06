@@ -10,7 +10,14 @@ Add Instagram source components to your Gatsby website.
 - [Theme source and docs](./theme)
 - [Demo site using this theme](./demo)
 - Checkout how I built this theme on [this Youtube playlist](https://www.youtube.com/playlist?list=PL_Q4x-stM4VJNLSloUtRgFH-7VW99I-WS)
-- This project is using Danger to maintain quality
+
+## TODO
+
+- [ ] make components more accessible
+- [ ] improve design
+- [ ] try to pass a config to a static query
+- [ ] better responsive styling
+
 
 ---
 This project is a fork of [gatsby-theme-jam-example](https://github.com/jlengstorf/gatsby-theme-jam-example).
