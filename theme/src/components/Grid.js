@@ -16,7 +16,6 @@ function InstagramGrid({ card = SimpleCard }) {
         }}
       >
         {data.allInstaNode.edges.map(({ node }) => {
-          console.log(node)
           return <Child key={node.id} {...node} />
         })}
       </div>
