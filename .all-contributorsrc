@@ -19,6 +19,15 @@
         "tutorial",
         "review"
       ]
+    },
+    {
+      "login": "laradevitt",
+      "name": "laradevitt",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13952507?v=4",
+      "profile": "https://github.com/laradevitt",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
