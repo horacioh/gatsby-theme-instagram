@@ -1,4 +1,5 @@
 # Gatsby Theme Instagram Workspace
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 ![Theme cover image](./theme/shots/cover.jpg)
 
@@ -21,3 +22,19 @@ Add Instagram source components to your Gatsby website.
 
 ---
 This project is a fork of [gatsby-theme-jam-example](https://github.com/jlengstorf/gatsby-theme-jam-example).
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/laradevitt"><img src="https://avatars1.githubusercontent.com/u/13952507?v=4" width="100px;" alt="laradevitt"/><br /><sub><b>laradevitt</b></sub></a><br /><a href="https://github.com/horacioh/gatsby-theme-instagram/commits?author=laradevitt" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
