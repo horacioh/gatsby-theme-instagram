@@ -58,7 +58,7 @@ gatsby develop
 
 All the options are pretty much similar to how you setup [`gatsby-source-instagram`](https://github.com/oorestisime/gatsby-source-instagram). This theme uses `gatsby-source-instagram` at its core to pull data from Instagram.
 
-##### Public Scrapping for posts
+##### Public Scraping for posts
 
 If you intend to use the public scraping method then you need to pass the concerning username
 
@@ -69,7 +69,7 @@ module.exports = {
     {
       resolve: "@horacioh/gatsby-theme-instagram",
       options: {
-        type: `account` // optional. `account` is the default `type` value
+        type: `account`, // optional. `account` is the default `type` value
         username: "doraforscale",
       },
     },
@@ -85,7 +85,7 @@ If you want to source nodes from hashtags then you need the following:
 // In your gatsby-config.js
 plugins: [
   {
-    resolve: `gatsby-source-instagram`,
+    resolve: `@horacioh/gatsby-theme-instagram`,
     options: {
       type: `hashtag`,
       hashtag: `snowing`,
