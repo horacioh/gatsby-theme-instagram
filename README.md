@@ -31,6 +31,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore -->
 <table>
   <tr>
+    <td align="center"><a href="http://horacioh.com"><img src="https://avatars3.githubusercontent.com/u/725120?v=4" width="100px;" alt="Horacio Herrera"/><br /><sub><b>Horacio Herrera</b></sub></a><br /><a href="https://github.com/horacioh/gatsby-theme-instagram/commits?author=horacioh" title="Documentation">📖</a> <a href="https://github.com/horacioh/gatsby-theme-instagram/commits?author=horacioh" title="Code">💻</a> <a href="#design-horacioh" title="Design">🎨</a> <a href="#example-horacioh" title="Examples">💡</a> <a href="#video-horacioh" title="Videos">📹</a> <a href="#tutorial-horacioh" title="Tutorials">✅</a> <a href="#review-horacioh" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/laradevitt"><img src="https://avatars1.githubusercontent.com/u/13952507?v=4" width="100px;" alt="laradevitt"/><br /><sub><b>laradevitt</b></sub></a><br /><a href="https://github.com/horacioh/gatsby-theme-instagram/commits?author=laradevitt" title="Documentation">📖</a></td>
   </tr>
 </table>
