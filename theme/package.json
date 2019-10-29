@@ -28,7 +28,7 @@
     "gatsby-source-filesystem": "^2.1.5",
     "gatsby-source-instagram": "^0.5.1",
     "gatsby-transformer-sharp": "^2.2.3",
-    "theme-ui": "^0.2.2",
+    "theme-ui": "^0.2.46",
     "danger": "^9.1.5"
   },
   "keywords": [
