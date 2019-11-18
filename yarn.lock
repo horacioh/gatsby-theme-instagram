@@ -816,10 +816,10 @@
     "@babel/plugin-transform-react-jsx-self" "^7.0.0"
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.3", "@babel/runtime@^7.4.5":
-  version "7.5.3"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.5.3.tgz#ad06e9d28539426fc20869f0b3d9ed6c21bed909"
-  integrity sha512-09kHrO2Y0JWybW20qnt+UMlNTj7NUQByP6ubyq50Yj1QCDhbHfEmWk/uso+SaEi5XKNEWYVKbBgdiZisIaBPmw==
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.3", "@babel/runtime@^7.4.5", "@babel/runtime@^7.7.2":
+  version "7.7.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.7.2.tgz#111a78002a5c25fc8e3361bedc9529c696b85a6a"
+  integrity sha512-JONRbXbTXc9WQE2mAZd1p0Z3DZ/6vaQIkgYMSTP3KjRCyd7rCZCcfhCyX+YjwcKxcZ82UrxbRD358bpExNgrjw==
   dependencies:
     regenerator-runtime "^0.13.2"
 
@@ -5589,12 +5589,12 @@ gatsby-page-utils@^0.0.2:
     micromatch "^3.1.10"
     slash "^1.0.0"
 
-gatsby-plugin-google-analytics@^2.1.4:
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.1.4.tgz#f0b64900e125cef03e930332c45063ece8263206"
-  integrity sha512-TyCazAUVMfMy6U/dHtXYLg9FTS7PtOBrRZkpp0Pdqe2M9qA10xG54JZpjJcLGUkZr5oeZPjNAvoiVyatrTcWiw==
+gatsby-plugin-google-analytics@^2.1.27:
+  version "2.1.27"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.1.27.tgz#adbf24bb971ce3fb67ecdc3dcec36b833ff70abc"
+  integrity sha512-B1OfAKL7jSlrJnGEmIyuFuzHu52pZBhO6IYGDG44JzTjC5Ruw6ewbFoOml99dgt0+ylVdLMAfFM7ElaeAqF0NQ==
   dependencies:
-    "@babel/runtime" "^7.0.0"
+    "@babel/runtime" "^7.7.2"
 
 gatsby-plugin-mdx@^1.0.13:
   version "1.0.13"
