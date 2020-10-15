@@ -19,7 +19,7 @@
     "gatsby-plugin-mdx": "^1.0.13",
     "gatsby-remark-prismjs": "^3.3.3",
     "lodash.merge": "^4.6.2",
-    "react": "^16.8.6",
+    "react": "^16.14.0",
     "react-dom": "^16.8.6",
     "danger": "^9.1.5"
   },
